@@ -1,12 +1,13 @@
 {
-    "name": "mtownsend/xml-to-array",
+    "name": "pbxapi/xml-to-array",
+    "type": "library",
     "description": "Easily convert valid xml to a php array.",
     "keywords": [
-        "laravel",
+        "pbxapi",
         "xml",
-        "array",
         "convert"
     ],
+    "homepage": "https://github.com/pbxapi/xml-to-array",
     "license": "MIT",
     "authors": [
         {
@@ -17,21 +18,21 @@
     ],
 	"autoload": {
         "psr-4": {
-            "Mtownsend\\XmlToArray\\": "src"
+            "Pbxapi\\XmlToArray\\": "src"
         },
         "files": [
             "src/helpers.php"
         ]
     },
     "require": {
-        "php": "~7.0"
+        "php": "~7.0|^8.0"
     },
     "require-dev": {
       "phpunit/phpunit": "^6.4"
     },
     "autoload-dev": {
         "psr-4": {
-            "Mtownsend\\XmlToArray\\Test\\": "tests/"
+            "Pbxapi\\XmlToArray\\Test\\": "tests/"
         }
     },
     "minimum-stability": "stable"
