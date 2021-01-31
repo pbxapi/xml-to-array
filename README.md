@@ -13,7 +13,7 @@ composer require mtownsend/xml-to-array
 ### Using the class
 
 ```php
-use Mtownsend\XmlToArray\XmlToArray;
+use Pbxapi\XmlToArray\XmlToArray;
 
 $xml = <<<XML
 <?xml version="1.0"?>

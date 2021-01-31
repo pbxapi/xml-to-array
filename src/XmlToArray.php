@@ -1,6 +1,6 @@
 <?php
 
-namespace Mtownsend\XmlToArray;
+namespace Pbxapi\XmlToArray;
 
 use DOMDocument;
 
